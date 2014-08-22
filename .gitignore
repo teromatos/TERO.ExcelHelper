@@ -60,3 +60,6 @@ build/
 #Properties/Resources.resources
 
 *.xap
+
+msbuild.log
+TestResult.xml
