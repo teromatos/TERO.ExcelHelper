@@ -1,0 +1,63 @@
+﻿? x
+{IF(1=1, 100, 200)}
+    [NPOI.XSSF.UserModel.XSSFCell]: {IF(1=1, 100, 200)}
+    ArrayFormulaRange: 'x.ArrayFormulaRange' threw an exception of type 'System.InvalidOperationException'
+    BooleanCellValue: false
+    CachedFormulaResultType: Numeric
+    CellComment: null
+    CellFormula: "IF(1=1, 100, 200)"
+    CellStyle: {NPOI.XSSF.UserModel.XSSFCellStyle}
+    CellType: Formula
+    ColumnIndex: 6
+    DateCellValue: {4/9/1900 12:00:00 AM}
+    ErrorCellValue: 'x.ErrorCellValue' threw an exception of type 'System.InvalidOperationException'
+    Hyperlink: null
+    IsMergedCell: false
+    IsPartOfArrayFormulaGroup: false
+    NumericCellValue: 100.0
+    RichStringCellValue: 'x.RichStringCellValue' threw an exception of type 'System.InvalidOperationException'
+    Row: {NPOI.OpenXmlFormats.Spreadsheet.CT_Row}
+    RowIndex: 0
+    Sheet: {Name: /xl/worksheets/sheet1.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml}
+    StringCellValue: 'x.StringCellValue' threw an exception of type 'System.InvalidOperationException'
+
+
+
+
+
+
+
+
+[1,4], True, 'Boolean'
+[1,5], 12345.12, 'Numeric'
+[1,6], 123456789, 'Numeric'
+[1,7], 1/1/2014 12:00:00 AM, 'Date'
+[1,8], 3/2/2014 12:00:00 AM, 'Date'
+[1,9], False, 'Boolean'
+[1,10], True, 'Formula_Boolean'
+[1,11], test, 'String'
+[1,12], 0123, 'String'
+[1,13], 12345.12, 'Formula_Numeric'
+[1,14], 41640, 'Formula_Numeric'
+[1,15], False, 'Formula_Boolean'
+[1,16], test, 'Formula_String'
+[1,17], #ERROR!, 'Formula_Error'
+[1,18], #ERROR!, 'Formula_Error'
+
+[2,4], False, 'Boolean'
+[2,5], 12345.12, 'Numeric'
+[2,6], 123456789, 'Numeric'
+[2,7], 1/1/2014 12:00:00 AM, 'Date'
+[2,8], 3/2/2014 12:00:00 AM, 'Date'
+[2,9], False, 'Boolean'
+[2,10], True, 'Formula_Boolean'
+[2,11], test, 'String'
+[2,12], 0123, 'String'
+[2,13], 123456789, 'Formula_Numeric'
+[2,14], 41700, 'Formula_Numeric'
+[2,15], True, 'Formula_Boolean'
+[2,16], 0123, 'Formula_String'
+[2,17], #ERROR!, 'Formula_Error'
+[2,18], #ERROR!, 'Formula_Error'
+
+
